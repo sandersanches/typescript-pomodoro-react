@@ -1,0 +1,36 @@
+Criado um novo Projeto do zero:
+  Antes de criar o projeto, certifique-se de ter o create-react-app instalado globalmente. Caso não tenha, ou esteja em dúvidas, digite o comando abaixo:
+    npm install -g create-react-app
+
+  Para criar o novo projeto, digite o comando:
+
+    npx create-react-app . --template typescript
+
+	Este comando deve ser digitado quando a pasta do projeto ja estiver sido criada. Caso contrário, no lugar de ponto, deve ter o nome do projeto:
+
+    npx create-react-app my-app --template typescript
+
+Apos instalar, para confirmar que está tudo funcionando corretamente, inicie a execução do projeto, atravez do comando:
+
+  npm start
+
+Para facilitar a nossa vida, vamos utilizar as dependencias de projeto anteriores. Portanto, em package.json, adicione as devDependencies:
+
+  "devDependencies": {
+    "eslint-plugin-react": "^7.20.3",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
+
+  No meu projeto, eu consegui instalar as seguinte versões:
+    "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^5.5.0",
+      "@typescript-eslint/parser": "^5.5.0",
+      "eslint-config-prettier": "^9.1.0",
+      "eslint-plugin-prettier": "^5.1.3",
+      "eslint-plugin-react": "^7.34.3",
+      "prettier": "^3.2.5"
+    }
