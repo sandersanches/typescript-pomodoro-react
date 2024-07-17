@@ -54,7 +54,7 @@ body{
   }
 }
 
-.pomodoro .bottom{
+.pomodoro button{
   background-color: #41e1ba;
   border: none;
   padding: 10px 25px;
@@ -65,6 +65,6 @@ body{
   margin: 20px auto;
 }
 
-.working .pomodoro .bottom{
+.working .pomodoro button{
   background-color: #EF5D50;
 }
